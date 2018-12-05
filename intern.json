@@ -1,0 +1,12 @@
+{
+  "browser": {
+    "loader": {
+      "script": "systemjs"
+    },
+    "plugins": {
+      "script": "_dist/src/system.config.js",
+      "useLoader": true
+    }
+  },
+  "environments": ["node", { "browserName": "chrome" }]
+}

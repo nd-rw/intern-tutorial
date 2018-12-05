@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "types": [
+      "intern",
+      "systemjs"
+    ],
     "target": "es5",
     "module": "commonjs",
     "lib": [
@@ -16,6 +20,7 @@
     "rootDir": "."
   },
   "include": [
-    "src/**/*.ts"
+    "src/**/*.ts",
+    "tests/**/*.ts"
   ]
 }
