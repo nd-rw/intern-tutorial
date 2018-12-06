@@ -10,6 +10,7 @@
   "bugs": "https://github.com/theintern/intern-tutorial/issues",
   "homepage": "http://theintern.io/",
   "dependencies": {
+    "chai": "^4.2.0",
     "systemjs": "~0.19.47",
     "tslib": "~1.8.0"
   },
